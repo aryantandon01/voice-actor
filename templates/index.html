@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Voice Actor</title>
+</head>
+<body>
+    <h1>AI Voice Actor for Content Creation</h1>
+    <form action="/generate" method="post">
+        <label for="script">Enter your script:</label><br>
+        <textarea id="script" name="script" rows="5" cols="50"></textarea><br><br>
+        
+        <label for="style">Enhance Script?</label><br>
+        <select id="style" name="style">
+            <option value="none">No</option>
+            <option value="expand">Expand Script</option>
+        </select><br><br>
+        
+        <label for="music">Add Background Music?</label>
+        <input type="checkbox" id="music" name="music" value="yes"><br><br>
+        
+        <input type="submit" value="Generate Voiceover">
+    </form>
+</body>
+</html>
