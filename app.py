@@ -3,7 +3,7 @@ from gtts import gTTS
 from transformers import pipeline
 from pydub import AudioSegment
 import os
-#fewr 
+
 app = Flask(__name__)
 
 # Initialize a text-generation pipeline (using GPT-2 as an example)
